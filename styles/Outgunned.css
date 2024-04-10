@@ -1481,30 +1481,42 @@ font-family:'Futura';
 	padding:0px;
 	margin-top:10px;
 }
+.chasetable tr td:nth-child(20) div{
+	margin:0px;
+}
 .chasetable tr td:nth-child(20){
-	grid-column: 1 / span 4;
+	grid-column: 1 / span 3;
 	grid-row: 3 / span 1;
 	padding:0px;
 	border-bottom: 2px solid #004f82;
 	height:100%;
 }
 .chasetable tr td:nth-child(21){
-	grid-column: 4 / span 16;
+	grid-column: 3 / span 17;
 	grid-row: 3 / span 1;
 	padding:0px;
 	border-bottom: 2px solid #004f82;
 	height:100%;
 }
+.chasetable tr td:nth-child(21) div{
+	margin:0px;
+}
+.chasetable tr td:nth-child(22) div{
+	margin:0px;
+}
 .chasetable tr td:nth-child(22){
-	grid-column: 1 / span 7;
+	grid-column: 1 / span 6;
 	grid-row: 4 / span 1;
 	padding:0px;
 	border-bottom: 2px solid #004f82;
 	height:70%;
 	align-items:flex-end;
 }
+.chasetable tr td:nth-child(23) div{
+	margin:0px;
+}
 .chasetable tr td:nth-child(23){
-	grid-column: 8 / span 8;
+	grid-column: 7 / span 9;
 	grid-row: 4 / span 1;
 	padding:0px;
 	border-bottom: 2px solid #004f82;
@@ -1939,4 +1951,108 @@ font-family:'Futura';
 }
 .panelrasgosaccenem{
 	margin-right:3%;
+}
+.checkboxpanelpnj {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	gap:7px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.panelcolumna2 {
+	display:grid;
+	grid-template-columns: 55% 40%;
+	gap:20px;
+	margin-right:40px;
+}
+.paneldescrol {
+	display: grid;
+	grid-template-columns: 8% 92%;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid #b3251b;
+}
+.paneldesctropo {
+	display: grid;
+	grid-template-columns: 13% 87%;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid #b3251b;
+}
+.paneldescdefecto {
+	display: grid;
+	grid-template-columns: 15% 85%;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid #b3251b;
+}
+.paneldesclatiguillo {
+	display: grid;
+	grid-template-columns: 19% 81%;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid #b3251b;
+}
+.paneldesctrabed {
+	display: grid;
+	grid-template-columns: 16% 53% 10% 21%;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid #b3251b;
+}
+.paneldescmision {
+	display: grid;
+	grid-template-columns: 14% 86%;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid #b3251b;
+}
+.paneldescdirectmision {
+	display: grid;
+	grid-template-columns: 10% 90%;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid #004f82;
+}
+.heroestabla .custom-system-dynamicRow{
+	display:grid;
+	grid-template-columns: 8% 87% 5%;
+}
+.heroestabla tr:last-child td:first-child{
+	display:none;
+}
+.nombremontazul {
+	display: grid;
+	grid-template-columns: 8% 92%;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid #004f82;
+}
+.paneldescmismision {
+	display: grid;
+	grid-template-columns: 7% 93%;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid #b3251b;
+}
+.panelvillanomis {
+	display: grid;
+	grid-template-columns: 13% 27% 25% 35%;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid #b3251b;
+}
+.panelvillano2mis {
+	display: grid;
+	grid-template-columns: 24% 76%;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid #b3251b;
+}
+.nombremontmis {
+	display: grid;
+	grid-template-columns: 10% 90%;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid #b3251b;
 }

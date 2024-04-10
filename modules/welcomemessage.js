@@ -29,7 +29,6 @@ Hooks.once("ready", function() {
 	let userisGM=game.user.isGM;
 	if (userisGM) {
 		if(!game.user.getFlag("outgunned-csb-es", "welcomeMessage") || forzarmensaje==true) {
-			game.settings.set("custom-system-builder", "customStyle", "modules/outgunned-csb-es/assets/1999.css");
 			let msg=mensbienv+mensimpfirst+mensrecordtut;
 			ChatMessage.create({
         		speaker: {alias:"Outgunned"},
