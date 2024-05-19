@@ -1,8 +1,15 @@
-2024/04/09-14:57:15.866043 7f18f0b80700 Recovering log #53
-2024/04/09-14:57:15.872885 7f18f0b80700 Delete type=0 #53
-2024/04/09-14:57:15.872912 7f18f0b80700 Delete type=3 #51
-2024/04/10-08:35:44.725116 7f18e9353700 Level-0 table #58: started
-2024/04/10-08:35:44.726748 7f18e9353700 Level-0 table #58: 0 bytes OK
-2024/04/10-08:35:44.729512 7f18e9353700 Delete type=0 #56
-2024/04/10-08:35:44.734221 7f18e9353700 Manual compaction at level-0 from '!actors!66I5KCdcWF0Eey1r' @ 72057594037927935 : 1 .. '!actors!qlHDd6ukwsc44HT4' @ 0 : 0; will stop at (end)
-2024/04/10-08:35:44.734294 7f18e9353700 Manual compaction at level-1 from '!actors!66I5KCdcWF0Eey1r' @ 72057594037927935 : 1 .. '!actors!qlHDd6ukwsc44HT4' @ 0 : 0; will stop at (end)
+2024/05/14-15:03:53.973358 7f18f1381700 Recovering log #166
+2024/05/14-15:03:53.979361 7f18f1381700 Delete type=0 #166
+2024/05/14-15:03:53.979385 7f18f1381700 Delete type=3 #164
+2024/05/16-12:13:04.027804 7f18e9353700 Level-0 table #172: started
+2024/05/16-12:13:04.031794 7f18e9353700 Level-0 table #172: 32772 bytes OK
+2024/05/16-12:13:04.034316 7f18e9353700 Delete type=0 #170
+2024/05/16-12:13:04.041339 7f18e9353700 Manual compaction at level-0 from '!actors!66I5KCdcWF0Eey1r' @ 72057594037927935 : 1 .. '!actors!qlHDd6ukwsc44HT4' @ 0 : 0; will stop at (end)
+2024/05/16-12:13:04.041440 7f18e9353700 Manual compaction at level-1 from '!actors!66I5KCdcWF0Eey1r' @ 72057594037927935 : 1 .. '!actors!qlHDd6ukwsc44HT4' @ 0 : 0; will stop at '!actors!qlHDd6ukwsc44HT4' @ 58 : 1
+2024/05/16-12:13:04.041449 7f18e9353700 Compacting 1@1 + 1@2 files
+2024/05/16-12:13:04.045039 7f18e9353700 Generated table #173@1: 5 keys, 32726 bytes
+2024/05/16-12:13:04.045051 7f18e9353700 Compacted 1@1 + 1@2 files => 32726 bytes
+2024/05/16-12:13:04.046813 7f18e9353700 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/16-12:13:04.046905 7f18e9353700 Delete type=2 #168
+2024/05/16-12:13:04.046999 7f18e9353700 Delete type=2 #172
+2024/05/16-12:13:04.051310 7f18e9353700 Manual compaction at level-1 from '!actors!qlHDd6ukwsc44HT4' @ 58 : 1 .. '!actors!qlHDd6ukwsc44HT4' @ 0 : 0; will stop at (end)

@@ -1146,6 +1146,11 @@
 .spotlightbutton {
 	top:10%;
 	margin-left:3px;
+ width:79px;
+ border-radius:50%;
+}
+.spotlightbutton a{
+	border-radius:50%;
 }
 .spotlightbutton button.custom-system-label-root{
 	background:transparent;
@@ -1154,6 +1159,8 @@
 	height:79px;
 	width:79px;
 	cursor: pointer;
+ margin:0px;
+ padding:0px;
 }
 .charname input[type="text"]{
 	background: transparent;
@@ -1197,9 +1204,9 @@ font-family:'Futura';
 .chat-message .message-header .message-sender{
 	font-family: 'Futura';
 	text-align:center;
-	font-size:30px;
+	font-size: 1vw;
 	text-wrap: wrap;
-	line-height:80%;
+	line-height:100%;
 	margin-top:5px;
 	margin-bottom:5px;
 	color: #b3251b;
@@ -2055,4 +2062,12 @@ font-family:'Futura';
 	gap:0px;
 	margin:0px 0px 2px 0px;
 	border-bottom:2px solid #b3251b;
+}
+.nivduel {
+	margin-right:5%;
+	margin-left:0px;
+}
+.gapzero {
+	display:grid;
+	grid-template-columns: 40% 55%
 }
