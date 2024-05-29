@@ -1,15 +1,8 @@
-2024/05/14-15:03:53.973358 7f18f1381700 Recovering log #166
-2024/05/14-15:03:53.979361 7f18f1381700 Delete type=0 #166
-2024/05/14-15:03:53.979385 7f18f1381700 Delete type=3 #164
-2024/05/16-12:13:04.027804 7f18e9353700 Level-0 table #172: started
-2024/05/16-12:13:04.031794 7f18e9353700 Level-0 table #172: 32772 bytes OK
-2024/05/16-12:13:04.034316 7f18e9353700 Delete type=0 #170
-2024/05/16-12:13:04.041339 7f18e9353700 Manual compaction at level-0 from '!actors!66I5KCdcWF0Eey1r' @ 72057594037927935 : 1 .. '!actors!qlHDd6ukwsc44HT4' @ 0 : 0; will stop at (end)
-2024/05/16-12:13:04.041440 7f18e9353700 Manual compaction at level-1 from '!actors!66I5KCdcWF0Eey1r' @ 72057594037927935 : 1 .. '!actors!qlHDd6ukwsc44HT4' @ 0 : 0; will stop at '!actors!qlHDd6ukwsc44HT4' @ 58 : 1
-2024/05/16-12:13:04.041449 7f18e9353700 Compacting 1@1 + 1@2 files
-2024/05/16-12:13:04.045039 7f18e9353700 Generated table #173@1: 5 keys, 32726 bytes
-2024/05/16-12:13:04.045051 7f18e9353700 Compacted 1@1 + 1@2 files => 32726 bytes
-2024/05/16-12:13:04.046813 7f18e9353700 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/05/16-12:13:04.046905 7f18e9353700 Delete type=2 #168
-2024/05/16-12:13:04.046999 7f18e9353700 Delete type=2 #172
-2024/05/16-12:13:04.051310 7f18e9353700 Manual compaction at level-1 from '!actors!qlHDd6ukwsc44HT4' @ 58 : 1 .. '!actors!qlHDd6ukwsc44HT4' @ 0 : 0; will stop at (end)
+2024/05/29-08:18:41.930162 7f18eb7fe700 Recovering log #213
+2024/05/29-08:18:41.937377 7f18eb7fe700 Delete type=3 #211
+2024/05/29-08:18:41.937412 7f18eb7fe700 Delete type=0 #213
+2024/05/29-08:19:42.307281 7f18e9353700 Level-0 table #218: started
+2024/05/29-08:19:42.307304 7f18e9353700 Level-0 table #218: 0 bytes OK
+2024/05/29-08:19:42.310136 7f18e9353700 Delete type=0 #216
+2024/05/29-08:19:42.313553 7f18e9353700 Manual compaction at level-0 from '!actors!66I5KCdcWF0Eey1r' @ 72057594037927935 : 1 .. '!actors!qlHDd6ukwsc44HT4' @ 0 : 0; will stop at (end)
+2024/05/29-08:19:42.316438 7f18e9353700 Manual compaction at level-1 from '!actors!66I5KCdcWF0Eey1r' @ 72057594037927935 : 1 .. '!actors!qlHDd6ukwsc44HT4' @ 0 : 0; will stop at (end)
