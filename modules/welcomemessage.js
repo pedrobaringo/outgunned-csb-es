@@ -12,7 +12,7 @@ Hooks.once("init", function() {
 	game.settings.register("outgunned-csb-es", "ambientacion", {
         name: "Ambientación",
         hint: "Selecciona que ambientación quieres usar para el diseño de las fichas.",
-        scope: "client",
+        scope: "world",
         config: true,
 		requiresReload: true,
 		type: String,
