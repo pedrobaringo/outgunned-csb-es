@@ -143,6 +143,9 @@ Hooks.once("ready", function() {
 						}, 500);
 						game.user.setFlag("outgunned-csb-es", "welcomeMessage", true);
 						game.user.setFlag("outgunned-csb-es", "lastVersion", game.modules.get("outgunned-csb-es").version);
+						setTimeout(() => {
+							game.macros.getName('Roll - Reroll - All In (Integrado)').update({permission:{default:2}});
+						}, 5000);
 					});
 				}
 				}, 100);
@@ -192,6 +195,9 @@ Hooks.once("ready", function() {
 							let docs3 =  collection3.importAll({folderId: folderident3, folderName: "Macros Outgunned", keepId: true});
 						}, 500);
 						game.user.setFlag("outgunned-csb-es", "lastVersion", game.modules.get("outgunned-csb-es").version);
+						setTimeout(() => {
+							game.macros.getName('Roll - Reroll - All In (Integrado)').update({permission:{default:2}});
+						}, 5000);
 					});
 				}
 				}, 500);
