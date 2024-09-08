@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: "OutgunnedDice-Regular";
-    src: url("../assets/OutgunnedDice-Regular.otf")  format("opentype");
+    src: url('../assets/OutgunnedDice-Regular.otf');
 }
 @font-face {
     font-family: "SkullSymbol";
@@ -1218,7 +1218,7 @@ font-family:'Futura';
 	border:0px;
 	}
 .chat-message {
-	background: url('../assets/FondoOG_2.webp')center;
+	background: var(--background-imagen-chat);
 	background-size:100% 100%;
 }
 .chat-message .message-header .message-sender{
@@ -2882,11 +2882,18 @@ div.custom-system-sheet-actions:first-of-type {
 .foto2 {
 	transform: rotate(3deg);
 }
+.dice-tooltip .dice-rolls .roll.min {
+    filter: none;
+}
+.dice-tooltip .dice-rolls .roll.max {
+    filter: none;
+}
 :root {
 	--theme-color:  #b3251b;
 	--director-color: #004f82;
 	--dice-background-color: white;
 	--background-imagen: url('../assets/Fondo Outgunned.webp')center;
+	--background-imagen-chat: url('../assets/FondoOG_2.webp')center;
 	--filter-color: invert(15%) sepia(57%) saturate(4084%) hue-rotate(351deg) brightness(106%) contrast(91%);
 	--spotlight-icon: url(../assets/Spotlight_black.webp);
  --adrenaline-text: '¡Adrenalina!';
@@ -2896,4 +2903,5 @@ div.custom-system-sheet-actions:first-of-type {
 	--backup-image: url('../assets/checkrefuerzos_black.webp');
 	--bluff-text: 'Farol';
 	--bluff-image: url('../assets/checkfarol_black.webp');
+	--dicefont: url('../assets/OutgunnedDice-Regular.otf');
 }
