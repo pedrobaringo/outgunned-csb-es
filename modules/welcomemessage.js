@@ -189,6 +189,9 @@ Hooks.once("ready", function() {
 						game.user.setFlag("outgunned-csb-es", "lastVersion", game.modules.get("outgunned-csb-es").version);
 						setTimeout(() => {
 							game.macros.getName('Roll - Reroll - All In (Integrado)').update({ownership:{default:2}});
+							game.macros.getName('Roll - Reroll - All In (Integrado) (QuickDraw- Shot)').update({ownership:{default:2}});
+							game.macros.getName('Roll - Reroll - All In (Integrado) (QuickDraw-Draw)').update({ownership:{default:2}});
+							game.macros.getName('Roll - Reroll - All In (Integrado) (QuickDraw-Stareoff)').update({ownership:{default:2}});
 						}, 5000);
 					});
 				}
@@ -241,6 +244,9 @@ Hooks.once("ready", function() {
 						game.user.setFlag("outgunned-csb-es", "lastVersion", game.modules.get("outgunned-csb-es").version);
 						setTimeout(() => {
 							game.macros.getName('Roll - Reroll - All In (Integrado)').update({ownership:{default:2}});
+							game.macros.getName('Roll - Reroll - All In (Integrado) (QuickDraw- Shot)').update({ownership:{default:2}});
+							game.macros.getName('Roll - Reroll - All In (Integrado) (QuickDraw-Draw)').update({ownership:{default:2}});
+							game.macros.getName('Roll - Reroll - All In (Integrado) (QuickDraw-Stareoff)').update({ownership:{default:2}});
 						}, 5000);
 					});
 				}
