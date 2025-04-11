@@ -538,9 +538,9 @@
     transform: rotate(90deg);
 	font-size:1.2em;
 	padding:0px;
-	margin-left:-70%;
+	margin-left:-40%;
 	height: fit-content;
-	top:35%;
+	top:45%;
 }
 .panelrulgran {
 	display:grid;
@@ -2366,10 +2366,6 @@ font-family:'Futura';
 .tabbedoutgunned .tabs .item:hover {
     text-shadow: 0 0 10px var(--theme-color);
 }
-.adrentext:after {
-	content: var(--adrenaline-text);
-	margin:0px;
-}
 .adrencomp {
 	margin:0px;
 }
@@ -3164,6 +3160,354 @@ div.custom-system-sheet-actions:first-of-type {
 .quickdraw span{
 	width:100%;
 	text-align:center;
+}
+
+.labpow {
+    width: 25px;
+	color: #d36602;
+}
+.checkaguantepow input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    margin: 9px 0px 0px 0px;
+    background: url(../assets/Pow_unchecked.webp);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    flex: 0 0 30px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.checkaguantepow input[type="checkbox"]:checked {
+    background: url(../assets/Pow_checked.webp);
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+.checkpower input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    margin: 5px 0px 0px 0px;
+    background: url(../assets/Powercheck_unchecked.webp);
+    background-size: 19px;
+    background-repeat: no-repeat;
+    flex: 0 0 19px;
+    width: 19px;
+    height: 29px;
+    cursor: pointer;
+    filter: var(--filter-color);
+}
+.checkpower input[type="checkbox"]:checked {
+    background: url(../assets/Powercheck_checked.webp);
+    filter: var(--filter-color);
+    background-size: 19px;
+    background-repeat: no-repeat;
+}
+.panelcashalmridesuper {
+	display: grid;
+    gap: 0px;
+    grid-template-columns: 50% 50%;
+    margin-left: 10px;
+}
+.sinpodercheck  input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    margin: 5px 0px 0px 0px;
+    background: url(../assets/Powerless_unchecked.webp);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    flex: 0 0 50px;
+    width: 50px;
+    height: 90px;
+    cursor: pointer;
+}
+.sinpodercheck input[type="checkbox"]:checked {
+    background: url(../assets/Powerless_checked.webp);
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+.superpowerpanel {
+	margin-top:5px;
+}
+.panelsinpoderes {
+	width:120%;
+}
+.spotlightpanelsuper {
+	width: 200px;
+    height: 110px;
+    border-radius: 0%;
+    background: url(../assets/Spotlightsupers.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    filter: var(--filter-color);
+	z-index:0;
+}
+.spotlightbuttonsuper {
+    top: 5%;
+	left:-18%;
+    margin-left: 3px;
+    width: 87px;
+	height: 100px;
+    border-radius: 0%;
+}
+.spotlightbuttonsuper a {
+    border-radius: 0%;
+	width: 87px;
+	height: 100px;
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.spotlightbuttonsuper button.custom-system-label-root {
+    background: transparent;
+    border: 0px;
+    border-radius: 0%;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+}
+.spotlightpanelbacksuper {
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0px;
+    bottom: -45px;
+    left: 40px;
+	z-index:1;
+}
+.checkspotsuper {
+    width: 20px;
+	height:20px;
+    display: block;
+    position: absolute;
+    top: 46.2%;
+    left: 41%;
+}
+.checkspotsuper input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    border-width: 0px;
+    margin: 0px;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+	width: 15px;
+    height: 15px;
+    cursor: pointer;
+	z-index:100;
+}
+.checkspotsuper input[type="checkbox"]:checked {
+    -webkit-appearance: initial;
+    appearance: initial;
+    margin: 0px;
+    background: url(../assets/Check_Spotlightsupers_Checked.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+	filter: var(--filter-color);
+	width: 15px;
+    height: 15px;
+}
+.spotlight1super {
+    transform:translate(331% ,74%);
+}
+.spotlight2super {
+	transform:translate(444% ,74%);
+}
+.spotlight3super {
+	transform:translate(557% ,74%);
+}
+.cargchecksup {
+	margin:0px;
+}
+.cargchecksup input[type="checkbox"]{
+	-webkit-appearance: initial;
+    appearance: initial;
+    margin-top:7px;
+	border: 2px solid #bec1da;
+    background: transparent;
+    cursor: pointer;
+}
+.cargchecksup input[type="checkbox"]:checked{
+	-webkit-appearance: initial;
+    appearance: initial;
+    margin-top:7px;
+	border: 2px solid #bec1da;
+    background: #1e4b88;
+    cursor: pointer;
+}
+.tablarmasadvpansup {
+	margin-left:10px;
+}
+.tablarmasadvpansup table {
+	background:transparent;
+	border:0px;
+	border-collapse: collapse;
+}
+.tablarmasadvpansup .custom-system-dynamicRow {
+	display:grid;
+	grid-template-columns: 37% 49% 4% 4% 4% 5%;
+}
+.tablarmasadvpansup .custom-system-dynamicRow div {
+	align-items:center;
+	padding:0px;
+}
+.tablarmasadvpansup table tr:nth-child(2) td:not(:last-child){
+	border-top:1px solid black;
+}
+.tablarmasadvpansup table tr:nth-child(even) td:first-child{
+	border-right:1px solid #b2b2b7;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	background-color:white;
+}
+.tablarmasadvpansup table tr:nth-child(even) td:nth-child(2){
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	background-color:white;
+}
+.tablarmasadvpansup table tr:nth-child(even) td:nth-child(3){
+	border-right:0px solid #b2b2b7;
+	border-bottom:1px solid black;
+	background-color:white;
+	padding:0px;
+}
+.tablarmasadvpansup table tr:nth-child(even) td:nth-child(4){
+	border-right:0px solid #b2b2b7;
+	border-bottom:1px solid black;
+	background-color:white;
+	padding:0px;
+}
+.tablarmasadvpansup table tr:nth-child(even) td:nth-child(5){
+	border-right:1px solid #b2b2b7;
+	border-bottom:1px solid black;
+	background-color:white;
+	padding:0px;
+}
+.tablarmasadvpansup table tr:last-child{
+	background-color:transparent;
+}
+.tablarmasadvpansup table tr:nth-child(odd) td:first-child{
+	border-right:1px solid #b2b2b7;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	background-color:#f6f6f6;
+}
+.tablarmasadvpansup table tr:nth-child(odd) td:nth-child(2){
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	background-color:#f6f6f6;
+}
+.tablarmasadvpansup table tr:nth-child(odd) td:nth-child(3){
+	border-right:0px solid #b2b2b7;
+	border-bottom:1px solid black;
+	background-color:#f6f6f6;
+	padding:0px;
+}
+.tablarmasadvpansup table tr:nth-child(odd) td:nth-child(4){
+	border-right:0px solid #b2b2b7;
+	border-bottom:1px solid black;
+	background-color:#f6f6f6;
+	padding:0px;
+}
+.tablarmasadvpansup table tr:nth-child(odd) td:nth-child(5){
+	border-right:1px solid #b2b2b7;
+	border-bottom:1px solid black;
+	background-color:#f6f6f6;
+	padding:0px;
+}
+.tablarmasadvpansup .custom-system-dynamicRow td:nth-child(6){
+	border:0px;
+	background:transparent;
+}
+.tablarmasadvpansup table tr:last-child td:first-child{
+	border-width: 0px 0px 0px 0px;
+}
+.tablarmasadvpansup table tr:last-child  td:first-child{
+	background-color:transparent;
+	border:0px;
+}
+.tablarmasadvpansup table tr:last-child  td:last-child{
+	background-color:transparent;
+	border:0px;
+}
+.tablarmasadvpansup table tr:first-child  td:first-child{
+	background-color:transparent;
+	border:0px;
+}
+.tablarmasadvpansup table tr:first-child  td:nth-child(2){
+	background-color:transparent;
+	border:0px;
+}
+.tablarmasadvpansup table tr:first-child  td:nth-child(3){
+	background-color:transparent;
+	border:0px;
+}
+.tablarmasadvpansup table tr:first-child  td:nth-child(4){
+	background-color:transparent;
+	border:0px;
+}
+.tablarmasadvpansup table tr:first-child  td:nth-child(5){
+	background-color:transparent;
+	border:0px;
+}
+.tablarmasadvpansup table tr:first-child  td:nth-child(6){
+	background-color:transparent;
+	border:0px;
+}
+.tablarmasadvpansup table tr:first-child  td:nth-child(7){
+	background-color:transparent;
+	border:0px;
+}
+.tablarmasadvpansup table tr:first-child  td:nth-child(9){
+	background-color:transparent;
+	border:0px;
+}
+.tablarmasadvpansup table tr:first-child  td:nth-child(8){
+	background-color:transparent;
+	border:0px;
+}
+.tablarmasadvpansup table tr:first-child{
+	display:none;
+}
+.tablequipadvpansup {
+	margin-left:10px;
+}
+.tablequipadvpansup table {
+	background:transparent;
+	border:0px;
+	border-collapse: collapse;
+}
+.tablequipadvpansup .custom-system-dynamicRow {
+	display:grid;
+	grid-template-columns: 28% 69% 3%;
+}
+.tablequipadvpansup table tr:nth-child(even):not(:last-child) td:not(:last-child){
+	background-color:white;
+}
+.tablequipadvpansup table tr:nth-child(odd):not(:first-child):not(:last-child) td:not(:last-child){
+	background-color:#f6f6f6;
+}
+.tablequipadvpansup .custom-system-dynamicRow div {
+	align-items:center;
+	padding:0px;
+}
+.panelcashtopsup {
+	display: grid;
+    grid-template-columns:auto auto;
+	gap:7px;
+	font-size:20px;
+}
+.paneldescalias {
+	display: grid;
+	grid-template-columns: 10% 90%;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid var(--theme-color);
 }
 :root {
 	--theme-color:  #b3251b;

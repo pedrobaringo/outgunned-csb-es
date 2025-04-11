@@ -74,6 +74,31 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
 	  fontScale: 2.2,
       system: "outgunnedAdvDice"
     });
+	dice3d.addSystem({id:"outgunnedSuperDice",name:"Outgunned Superheroes Dice"},"default");
+	dice3d.addDicePreset({
+      type:"d6",
+      labels:[
+        '1', 
+        '2', 
+        '3', 
+        '4',
+        '5', 
+        '6'
+      ],
+	  font:"OutgunnedDice-Regular",
+	  fontScale: 2.2,
+      system: "outgunnedSuperDice"
+    });
+	dice3d.addDicePreset({
+      type:"dc",
+      labels:[
+        'P',  
+        'B'
+      ],
+	  font:"OutgunnedDice-Regular",
+	  fontScale: 2.2,
+      system: "outgunnedSuperDice"
+    });
 	dice3d.addSystem({id:"outgunnedStarDice",name:"Outgunned Star Raiders Dice"},"default");
 	dice3d.addDicePreset({
       type:"d6",
