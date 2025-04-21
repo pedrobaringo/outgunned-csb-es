@@ -3509,6 +3509,12 @@ div.custom-system-sheet-actions:first-of-type {
 	margin:0px 0px 2px 0px;
 	border-bottom:2px solid var(--theme-color);
 }
+.paneldescadrenal {
+    display: grid;
+    grid-template-columns: 21% 79%;
+    gap: 0px;
+    margin: 0px 0px 2px 0px;
+}
 :root {
 	--theme-color:  #b3251b;
 	--director-color: #004f82;
