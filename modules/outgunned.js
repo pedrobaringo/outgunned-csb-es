@@ -649,5 +649,5 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
 	  fontScale: 2.2,
       system: "outgunnedinsertcoin"
     });
-});
+});						  
 
