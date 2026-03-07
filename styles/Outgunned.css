@@ -3019,7 +3019,7 @@ font-family:'Futura';
 .dice-tooltip .dice-rolls .roll.max {
     filter: none;
 }
-.panelrunsobrenatural  > :first-child{
+.panelrunsobrenatural{
     display: grid;
     grid-template-columns: 3% 97%;
     gap: 0px;
@@ -3685,6 +3685,48 @@ table th, table td {
 }
 .teveschar {
 	justify-content: center;
+}
+.itemsarmas table td{
+  display:flex;
+  align-items:center;
+}
+.itemsarmas table tr:not(:first-child):not(:last-child) td, .almacentable table tr:not(:first-child):not(:last-child) td {
+  min-height: 2rem;
+  height: 2rem;
+}
+.itemsarmas table td:nth-child(2), .itemsarmas table td:nth-child(3), .itemsarmas table td:nth-child(4), .itemsarmas table td:nth-child(5), .itemsarmas table td:nth-child(6){
+  font-family:'FuturaMed';
+  color:black;
+  font-weight:normal;
+  margin:0px;
+}
+.itemsarmas table td:nth-child(3) div, .itemsarmas table td:nth-child(4) div, .itemsarmas table td:nth-child(5) div, .itemsarmas table td:nth-child(6) div{
+  margin:0px;
+  justify-content:center;
+}
+.itemsarmas img {
+  display:none;
+}
+.itemsarmas table td .fas{
+  color: var(--theme-color)
+}
+.tablarmasadvpansup .custom-system-dynamicRow {
+    display: grid;
+    grid-template-columns: 35% 49% 4% 4% 4% 5%;
+}
+.paneleleccionequipado {
+margin-bottom:10px;
+}
+.paneleleccionequipado > :first-child div {
+    display: grid;
+    grid-template-columns: 100%;
+}
+.paneleleccionequipado > :first-child input {
+  text-align: center;
+}
+.itemheadergrid > :first-child {
+  grid-template-columns: 40% 60%;
+  padding-right:25px;
 }
 
 
