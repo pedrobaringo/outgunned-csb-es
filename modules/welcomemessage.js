@@ -42,7 +42,18 @@ Hooks.once("init", function() {
 			"furiouswasteland": "Furious Wasteland",
 			"armyofevil": "Army of Evil",
 			"quacktales": "Quack Tales",
-			"insertcoin": "Insert Coin"
+			"insertcoin": "Insert Coin",
+			"goodboys": "Good Boys",
+			"vforvillain": "V for Villain",
+			"godsandmen": "Gods & Men",
+			"beastunleashed": "Beast Unleashed",
+			"killingmachines": "Killing Machines",
+			"steeltitans": "Steel Titans",
+			"onlyhumans": "Only Humans",
+			"timetravel": "Time Travel",
+			"highoctane": "High Octane",
+			"powerguardians": "Power Guardians",
+			"variantverse": "Variantverse"
 		},
 		default: "outgunned",
 		onChange: value => {
@@ -124,6 +135,39 @@ Hooks.once("init", function() {
 			} else if (value=="superheroes") {
 				console.log(value);
 				game.settings.set("custom-system-builder", "customStyle", "modules/outgunned-csb-es/styles/OG_Superheroes.css");
+			} else if (value=="goodboys") {
+				console.log(value);
+				game.settings.set("custom-system-builder", "customStyle", "modules/outgunned-csb-es/styles/OG_GoodBoys.css");
+			} else if (value=="vforvillain") {
+				console.log(value);
+				game.settings.set("custom-system-builder", "customStyle", "modules/outgunned-csb-es/styles/OG_VforVillain.css");
+			} else if (value=="godsandmen") {
+				console.log(value);
+				game.settings.set("custom-system-builder", "customStyle", "modules/outgunned-csb-es/styles/OG_GodsandMen.css");
+			} else if (value=="beastunleashed") {
+				console.log(value);
+				game.settings.set("custom-system-builder", "customStyle", "modules/outgunned-csb-es/styles/OG_BeastUnleashed.css");
+			} else if (value=="killingmachines") {
+				console.log(value);
+				game.settings.set("custom-system-builder", "customStyle", "modules/outgunned-csb-es/styles/OG_KillingMachines.css");
+			} else if (value=="onlyhumans") {
+				console.log(value);
+				game.settings.set("custom-system-builder", "customStyle", "modules/outgunned-csb-es/styles/OG_OnlyHumans.css");
+			} else if (value=="timetravel") {
+				console.log(value);
+				game.settings.set("custom-system-builder", "customStyle", "modules/outgunned-csb-es/styles/OG_TimeTravel.css");
+			} else if (value=="highoctane") {
+				console.log(value);
+				game.settings.set("custom-system-builder", "customStyle", "modules/outgunned-csb-es/styles/OG_HighOctane.css");
+			} else if (value=="powerguardians") {
+				console.log(value);
+				game.settings.set("custom-system-builder", "customStyle", "modules/outgunned-csb-es/styles/OG_PowerGuardians.css");
+			} else if (value=="variantverse") {
+				console.log(value);
+				game.settings.set("custom-system-builder", "customStyle", "modules/outgunned-csb-es/styles/OG_Variantverse.css");
+			} else if (value=="steeltitans") {
+				console.log(value);
+				game.settings.set("custom-system-builder", "customStyle", "modules/outgunned-csb-es/styles/OG_SteelTitans.css");
 			}
 		}
 	})

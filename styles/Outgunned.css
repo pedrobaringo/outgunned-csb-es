@@ -164,7 +164,6 @@
 }
 .labeltitulo {
 	font-size:1.5em;
-	max-height:27px;
 	justify-content: center;
 }
 .paneldesc1 div{
@@ -650,9 +649,22 @@
 	grid-template-columns: 65% 35%;
 	gap:0px;
 }
-.panelruleta {
+.panelsinrulgran {
+	width:85%;
+	display: flex;
+    justify-content: center;
+}
+.panelsinrulgran  > :first-child{
+	display:grid;
+	gap:0px;
+}
+.panelrulgran  > :first-child > :first-child {
+	min-width:140px;
 	width:140px;
-   height:140px;
+}
+.panelruleta > :first-child{
+	min-width:140px;
+   min-height:140px;
    border-radius:50%;
    background: url(../assets/Ruleta_muerte_black.webp);
 	background-repeat: no-repeat;
@@ -700,11 +712,11 @@
 	height:30px;
 }
 .ruletacheck {
-	width: 20px;
-	display:block;
-   position:absolute;
-	top:55px;
-	left:45.5px;
+    width: 20px;
+    display: block;
+    position: absolute;
+    top: 76px;
+    left: 32.5%;
 }
 .rul1 {
 	transform:rotate(329deg) translate(41.5px) rotate(-329deg);
@@ -1705,7 +1717,7 @@ font-family:'Futura';
 }
 .termometro {
 	width:150px;
-   height:500px;
+   min-height:500px;
    background: url(../assets/Termometro_black.webp);
 	background-repeat: no-repeat;
  	background-size: contain;
@@ -1943,8 +1955,11 @@ font-family:'Futura';
 	filter: var(--filter-color);
 	position:relative;
 	top:0%;
-	left:22%;
+	left:25%;
 	z-index:10;
+}
+.checkbala {
+	position:absolute;
 }
 .checkbala input[type="checkbox"] {
     -webkit-appearance: initial;
@@ -1985,8 +2000,11 @@ font-family:'Futura';
 	filter: var(--filter-color);
 	position:relative;
 	top:0%;
-	left:22%;
+	left:25%;
 	z-index:10;
+}
+.checkrefuerzos {
+	position:absolute;
 }
 .checkrefuerzos input[type="checkbox"] {
     -webkit-appearance: initial;
@@ -2028,8 +2046,11 @@ font-family:'Futura';
 	filter: var(--filter-color);
 	position:relative;
 	top:0%;
-	left:22%;
+	left:25%;
 	z-index:10;
+}
+.checkfarol {
+	position:absolute;
 }
 .checkfarol input[type="checkbox"] {
     -webkit-appearance: initial;
@@ -2472,7 +2493,14 @@ font-family:'Futura';
 	bottom:-45px;
 	left:40px;
 }
-.panelruletaback {
+.panelruletaback{
+	width:140px;
+   height:0px;
+   margin:0px;
+	top:15%;
+	z-index:31;
+}
+.panelruletaback > :first-child{
 	width:140px;
    height:0px;
    position:relative;
@@ -2827,7 +2855,7 @@ font-family:'Futura';
 }
 .panelheatround {
     width: 200px;
-    height: 200px;
+    min-height: 200px;
     border-radius: 50%;
     background: url(../assets/Heatround.webp);
     background-repeat: no-repeat;
@@ -2994,6 +3022,8 @@ font-family:'Futura';
 }
 .imgtesoro p{
 	padding:20px 20px 0px 20px;
+	display:flex;
+	justify-content: center;
 }
 .panelfototesokey {
 	background: url(../assets/Fondofotoprev.webp);
@@ -3141,8 +3171,8 @@ font-family:'Futura';
     border-bottom: 2px solid var(--theme-color);
 }
 .livespanel {
-    width: 180px;
-    height: 180px;
+    min-width: 180px;
+    min-height: 180px;
     background: url(../assets/LivesBack.webp);
     background-repeat: no-repeat;
     background-size: contain;
@@ -3365,7 +3395,7 @@ font-family:'Futura';
 	margin-top:5px;
 }
 .panelsinpoderes {
-	width:120%;
+	width:100%;
 }
 .spotlightpanelsuper {
 	width: 200px;
@@ -3418,12 +3448,12 @@ font-family:'Futura';
 	z-index:1;
 }
 .checkspotsuper {
-    width: 20px;
-	height:20px;
+    width: 18px;
+    height: 20px;
     display: block;
     position: absolute;
-    top: 46.2%;
-    left: 41%;
+    top: -6px;
+    left: 5.5px;
 }
 .checkspotsuper input[type="checkbox"] {
     -webkit-appearance: initial;
@@ -3656,13 +3686,13 @@ font-family:'Futura';
     gap: 0px;
     margin: 0px 0px 2px 0px;
 }
- .cargcheck input[type="checkbox"]::before,.maletincheck input[type="checkbox"]::before,.cashcheck input[type="checkbox"]::before,.checkarmorgris input[type="checkbox"]::before,.checkarmornorm input[type="checkbox"]::before,.motocheck input[type="checkbox"]::before,.cochecheck input[type="checkbox"]::before,.barcocheck input[type="checkbox"]::before,.helicheck input[type="checkbox"]::before,.tanquecheck input[type="checkbox"]::before,.chaseblue input[type="checkbox"]::before,.chasered input[type="checkbox"]::before,.termocheck input[type="checkbox"]::before,.panelridearmordirect input[type="checkbox"]::before,.panelvehiculosdibdirect input[type="checkbox"]::before,.checkbala input[type="checkbox"]::before,.checkrefuerzos input[type="checkbox"]::before,.checkfarol input[type="checkbox"]::before,.checkaguantehotenem input[type="checkbox"]::before,.goldcheck input[type="checkbox"]::before,.checkbelmont input[type="checkbox"]::before,.checkbladebullet input[type="checkbox"]::before,.checkbluff input[type="checkbox"]::before,.checksuerte input[type="checkbox"]::before,.checkadv input[type="checkbox"]::before,.roundheatcheck input[type="checkbox"]::before,.starshipcheckbox input[type="checkbox"]::before,.bicicheck input[type="checkbox"]::before,.lifecheck1 input[type="checkbox"]::before,.lifecheck2 input[type="checkbox"]::before,.lifecheck3 input[type="checkbox"]::before,.checkaguantepow input[type="checkbox"]::before,.checkpower input[type="checkbox"]::before,.sinpodercheck input[type="checkbox"]::before,.checkspotsuper input[type="checkbox"]::before,.cargchecksup input[type="checkbox"]::before,.checkbox1 input[type="checkbox"]::before,.checkbox2 input[type="checkbox"]::before,.checkaguantenorm input[type="checkbox"]::before,.checkaguantebad input[type="checkbox"]::before,.checkaguantehot input[type="checkbox"]::before,.checkspot input[type="checkbox"]::before,.checkadren input[type="checkbox"]::before,.ruletacheck input[type="checkbox"]::before {
+ .cargcheck input[type="checkbox"]::before,.maletincheck input[type="checkbox"]::before,.cashcheck input[type="checkbox"]::before,.checkarmorgris input[type="checkbox"]::before,.checkarmornorm input[type="checkbox"]::before,.motocheck input[type="checkbox"]::before,.cochecheck input[type="checkbox"]::before,.barcocheck input[type="checkbox"]::before,.helicheck input[type="checkbox"]::before,.tanquecheck input[type="checkbox"]::before,.chaseblue input[type="checkbox"]::before,.chasered input[type="checkbox"]::before,.termocheck input[type="checkbox"]::before,.panelridearmordirect input[type="checkbox"]::before,.panelvehiculosdibdirect input[type="checkbox"]::before,.checkbala input[type="checkbox"]::before,.checkrefuerzos input[type="checkbox"]::before,.checkfarol input[type="checkbox"]::before,.checkaguantehotenem input[type="checkbox"]::before,.goldcheck input[type="checkbox"]::before,.checkbelmont input[type="checkbox"]::before,.checkbladebullet input[type="checkbox"]::before,.checkbluff input[type="checkbox"]::before,.checksuerte input[type="checkbox"]::before,.checkadv input[type="checkbox"]::before,.roundheatcheck input[type="checkbox"]::before,.starshipcheckbox input[type="checkbox"]::before,.bicicheck input[type="checkbox"]::before,.lifecheck1 input[type="checkbox"]::before,.lifecheck2 input[type="checkbox"]::before,.lifecheck3 input[type="checkbox"]::before,.checkaguantepow input[type="checkbox"]::before,.checkpower input[type="checkbox"]::before,.sinpodercheck input[type="checkbox"]::before,.checkspotsuper input[type="checkbox"]::before,.cargchecksup input[type="checkbox"]::before,.checkbox1 input[type="checkbox"]::before,.checkbox2 input[type="checkbox"]::before,.checkaguantenorm input[type="checkbox"]::before,.checkaguantebad input[type="checkbox"]::before,.checkaguantehot input[type="checkbox"]::before,.checkspot input[type="checkbox"]::before,.checkadren input[type="checkbox"]::before,.ruletacheck input[type="checkbox"]::before, .checkaguantenormbad  input[type="checkbox"]::before, .checkenergy1  input[type="checkbox"]::before,.checkenergy2  input[type="checkbox"]::before,.checkenergy3  input[type="checkbox"]::before{
     content: "";
 }
-.cargcheck input[type="checkbox"]:checked::before,.maletincheck input[type="checkbox"]:checked::before,.cashcheck input[type="checkbox"]:checked::before,.checkarmorgris input[type="checkbox"]:checked::before,.checkarmornorm input[type="checkbox"]:checked::before,.motocheck input[type="checkbox"]:checked::before,.cochecheck input[type="checkbox"]:checked::before,.barcocheck input[type="checkbox"]:checked::before,.helicheck input[type="checkbox"]:checked::before,.tanquecheck input[type="checkbox"]:checked::before,.chaseblue input[type="checkbox"]:checked::before,.chasered input[type="checkbox"]:checked::before,.termocheck input[type="checkbox"]:checked::before,.panelridearmordirect input[type="checkbox"]:checked::before,.panelvehiculosdibdirect input[type="checkbox"]:checked::before,.checkbala input[type="checkbox"]:checked::before,.checkrefuerzos input[type="checkbox"]:checked::before,.checkfarol input[type="checkbox"]:checked::before,.checkaguantehotenem input[type="checkbox"]:checked::before,.goldcheck input[type="checkbox"]:checked::before,.checkbelmont input[type="checkbox"]:checked::before,.checkbladebullet input[type="checkbox"]:checked::before,.checkbluff input[type="checkbox"]:checked::before,.checksuerte input[type="checkbox"]:checked::before,.checkadv input[type="checkbox"]:checked::before,.roundheatcheck input[type="checkbox"]:checked::before,.starshipcheckbox input[type="checkbox"]:checked::before,.bicicheck input[type="checkbox"]:checked::before,.lifecheck1 input[type="checkbox"]:checked::before,.lifecheck2 input[type="checkbox"]:checked::before,.lifecheck3 input[type="checkbox"]:checked::before,.checkaguantepow input[type="checkbox"]:checked::before,.checkpower input[type="checkbox"]:checked::before,.sinpodercheck input[type="checkbox"]:checked::before,.checkspotsuper input[type="checkbox"]:checked::before,.cargchecksup input[type="checkbox"]:checked::before,.checkbox1 input[type="checkbox"]:checked::before,.checkbox2 input[type="checkbox"]:checked::before,.checkaguantenorm input[type="checkbox"]:checked::before,.checkaguantebad input[type="checkbox"]:checked::before,.checkaguantehot input[type="checkbox"]:checked::before,.checkspot input[type="checkbox"]:checked::before,.checkadren input[type="checkbox"]:checked::before,.ruletacheck input[type="checkbox"]:checked::before {
+.cargcheck input[type="checkbox"]:checked::before,.maletincheck input[type="checkbox"]:checked::before,.cashcheck input[type="checkbox"]:checked::before,.checkarmorgris input[type="checkbox"]:checked::before,.checkarmornorm input[type="checkbox"]:checked::before,.motocheck input[type="checkbox"]:checked::before,.cochecheck input[type="checkbox"]:checked::before,.barcocheck input[type="checkbox"]:checked::before,.helicheck input[type="checkbox"]:checked::before,.tanquecheck input[type="checkbox"]:checked::before,.chaseblue input[type="checkbox"]:checked::before,.chasered input[type="checkbox"]:checked::before,.termocheck input[type="checkbox"]:checked::before,.panelridearmordirect input[type="checkbox"]:checked::before,.panelvehiculosdibdirect input[type="checkbox"]:checked::before,.checkbala input[type="checkbox"]:checked::before,.checkrefuerzos input[type="checkbox"]:checked::before,.checkfarol input[type="checkbox"]:checked::before,.checkaguantehotenem input[type="checkbox"]:checked::before,.goldcheck input[type="checkbox"]:checked::before,.checkbelmont input[type="checkbox"]:checked::before,.checkbladebullet input[type="checkbox"]:checked::before,.checkbluff input[type="checkbox"]:checked::before,.checksuerte input[type="checkbox"]:checked::before,.checkadv input[type="checkbox"]:checked::before,.roundheatcheck input[type="checkbox"]:checked::before,.starshipcheckbox input[type="checkbox"]:checked::before,.bicicheck input[type="checkbox"]:checked::before,.lifecheck1 input[type="checkbox"]:checked::before,.lifecheck2 input[type="checkbox"]:checked::before,.lifecheck3 input[type="checkbox"]:checked::before,.checkaguantepow input[type="checkbox"]:checked::before,.checkpower input[type="checkbox"]:checked::before,.sinpodercheck input[type="checkbox"]:checked::before,.checkspotsuper input[type="checkbox"]:checked::before,.cargchecksup input[type="checkbox"]:checked::before,.checkbox1 input[type="checkbox"]:checked::before,.checkbox2 input[type="checkbox"]:checked::before,.checkaguantenorm input[type="checkbox"]:checked::before,.checkaguantebad input[type="checkbox"]:checked::before,.checkaguantehot input[type="checkbox"]:checked::before,.checkspot input[type="checkbox"]:checked::before,.checkadren input[type="checkbox"]:checked::before,.ruletacheck input[type="checkbox"]:checked::before, .checkaguantenormbad  input[type="checkbox"]:checked::before, .checkenergy1  input[type="checkbox"]:checked::before,.checkenergy2  input[type="checkbox"]:checked::before, .checkenergy3  input[type="checkbox"]:checked::before{
     content: "";
 }
-.checkbox1 input[type="checkbox"]:checked::after, .checkbox2 input[type="checkbox"]:checked::after, .checkaguantenorm input[type="checkbox"]:checked::after, .checkaguantebad input[type="checkbox"]:checked::after, .checkaguantehot input[type="checkbox"]:checked::after, .checkspot input[type="checkbox"]:checked::after, .checkadren input[type="checkbox"]:checked::after, .ruletacheck input[type="checkbox"]:checked::after, .cargcheck input[type="checkbox"]:checked::after, .maletincheck input[type="checkbox"]:checked::after, .cashcheck input[type="checkbox"]:checked::after, .checkarmorgris input[type="checkbox"]:checked::after, .checkarmornorm input[type="checkbox"]:checked::after, .motocheck input[type="checkbox"]:checked::after, .cochecheck input[type="checkbox"]:checked::after, .barcocheck input[type="checkbox"]:checked::after, .helicheck input[type="checkbox"]:checked::after, .tanquecheck input[type="checkbox"]:checked::after, .chaseblue input[type="checkbox"]:checked::after, .chasered input[type="checkbox"]:checked::after, .termocheck input[type="checkbox"]:checked::after, .panelridearmordirect input[type="checkbox"]:checked::after, .panelvehiculosdibdirect input[type="checkbox"]:checked::after, .checkbala input[type="checkbox"]:checked::after, .checkrefuerzos input[type="checkbox"]:checked::after, .checkfarol input[type="checkbox"]:checked::after, .checkaguantehotenem input[type="checkbox"]:checked::after, .goldcheck input[type="checkbox"]:checked::after, .checkbelmont input[type="checkbox"]:checked::after, .checkbladebullet input[type="checkbox"]:checked::after, .checkbluff input[type="checkbox"]:checked::after, .checksuerte input[type="checkbox"]:checked::after, .checkadv input[type="checkbox"]:checked::after, .roundheatcheck input[type="checkbox"]:checked::after, .starshipcheckbox input[type="checkbox"]:checked::after, .bicicheck input[type="checkbox"]:checked::after, .lifecheck1 input[type="checkbox"]:checked::after, .lifecheck2 input[type="checkbox"]:checked::after, .lifecheck3 input[type="checkbox"]:checked::after, .checkaguantepow input[type="checkbox"]:checked::after, .checkpower input[type="checkbox"]:checked::after, .sinpodercheck input[type="checkbox"]:checked::after, .checkspotsuper input[type="checkbox"]:checked::after, .cargchecksup input[type="checkbox"]:checked::after {
+.checkbox1 input[type="checkbox"]:checked::after, .checkbox2 input[type="checkbox"]:checked::after, .checkaguantenorm input[type="checkbox"]:checked::after, .checkaguantebad input[type="checkbox"]:checked::after, .checkaguantehot input[type="checkbox"]:checked::after, .checkspot input[type="checkbox"]:checked::after, .checkadren input[type="checkbox"]:checked::after, .ruletacheck input[type="checkbox"]:checked::after, .cargcheck input[type="checkbox"]:checked::after, .maletincheck input[type="checkbox"]:checked::after, .cashcheck input[type="checkbox"]:checked::after, .checkarmorgris input[type="checkbox"]:checked::after, .checkarmornorm input[type="checkbox"]:checked::after, .motocheck input[type="checkbox"]:checked::after, .cochecheck input[type="checkbox"]:checked::after, .barcocheck input[type="checkbox"]:checked::after, .helicheck input[type="checkbox"]:checked::after, .tanquecheck input[type="checkbox"]:checked::after, .chaseblue input[type="checkbox"]:checked::after, .chasered input[type="checkbox"]:checked::after, .termocheck input[type="checkbox"]:checked::after, .panelridearmordirect input[type="checkbox"]:checked::after, .panelvehiculosdibdirect input[type="checkbox"]:checked::after, .checkbala input[type="checkbox"]:checked::after, .checkrefuerzos input[type="checkbox"]:checked::after, .checkfarol input[type="checkbox"]:checked::after, .checkaguantehotenem input[type="checkbox"]:checked::after, .goldcheck input[type="checkbox"]:checked::after, .checkbelmont input[type="checkbox"]:checked::after, .checkbladebullet input[type="checkbox"]:checked::after, .checkbluff input[type="checkbox"]:checked::after, .checksuerte input[type="checkbox"]:checked::after, .checkadv input[type="checkbox"]:checked::after, .roundheatcheck input[type="checkbox"]:checked::after, .starshipcheckbox input[type="checkbox"]:checked::after, .bicicheck input[type="checkbox"]:checked::after, .lifecheck1 input[type="checkbox"]:checked::after, .lifecheck2 input[type="checkbox"]:checked::after, .lifecheck3 input[type="checkbox"]:checked::after, .checkaguantepow input[type="checkbox"]:checked::after, .checkpower input[type="checkbox"]:checked::after, .sinpodercheck input[type="checkbox"]:checked::after, .checkspotsuper input[type="checkbox"]:checked::after, .cargchecksup input[type="checkbox"]:checked::after, .checkaguantenormbad input[type="checkbox"]:checked::after, .checkenergy1 input[type="checkbox"]:checked::after, .checkenergy2 input[type="checkbox"]:checked::after, .checkenergy3 input[type="checkbox"]:checked::after{
     content: "";
 }
 table tbody tr:nth-child(even) {
@@ -3692,7 +3722,10 @@ table th, table td {
 }
 .itemsarmas table tr:not(:first-child):not(:last-child) td, .almacentable table tr:not(:first-child):not(:last-child) td {
   min-height: 2rem;
-  height: 2rem;
+}
+.itemsarmas table tr td a, .almacentable table tr td a {
+	white-space: pre-wrap;
+    word-break: keep-all;
 }
 .itemsarmas table td:nth-child(2), .itemsarmas table td:nth-child(3), .itemsarmas table td:nth-child(4), .itemsarmas table td:nth-child(5), .itemsarmas table td:nth-child(6){
   font-family:'FuturaMed';
@@ -3706,6 +3739,13 @@ table th, table td {
 }
 .itemsarmas img {
   display:none;
+}
+.almacentable img {
+  display:none;
+}
+.almacentable table tr td a {
+	white-space: pre-wrap;
+    word-break: keep-all;
 }
 .itemsarmas table td .fas{
   color: var(--theme-color)
@@ -3728,6 +3768,259 @@ margin-bottom:10px;
   grid-template-columns: 40% 60%;
   padding-right:25px;
 }
+.permaguante {
+	filter: var(--filter-color);
+	margin: 0px;
+    margin-top: 6px;
+}
+.permaguantenofilter {
+	margin: 0px;
+    margin-top: 6px;
+}
+.permpow img{
+	margin-top:9px;
+}
+.marginleft {
+	margin-left:10px;
+}
+.panelbestialismo > :first-child{
+	min-width:190px;
+   min-height:190px;
+   background: url(../assets/Bestialismo.webp);
+	background-repeat: no-repeat;
+ 	background-size: contain;
+	background-position: center;
+   position:relative;
+   margin:0px;
+	filter: var(--filter-color);
+}
+.best1 {
+	translate: -54.5px -30.5px;;
+}
+.best2 {
+	translate: -20px -40px;
+}
+.best3 {
+	translate: 19px -40px;
+}
+.best4 {
+	translate: 50px -22px;
+}
+.best5 {
+	translate:68px 9px;
+}
+.best6 {
+	translate: 75px 43.5px;
+}
+.paneldescpiloto > :first-child{
+	display: grid;
+	grid-template-columns: 12% 88%;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid var(--theme-color);
+}
+.paneldescdesc > :first-child{
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid var(--theme-color);
+}
+.panelblindajetitan {
+}
+.checkaguantenormbad input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+	margin:0px;
+    background: url('../assets/aguantenormcheck_black.webp');
+	background-size:25px;
+	background-repeat: no-repeat;
+	flex: 0 0 25px;
+    width: 25px;
+    height: 30px;
+    cursor: pointer;
+	filter: invert(25%) sepia(5%) saturate(68%) hue-rotate(22deg) brightness(104%) contrast(89%);
+}
+.checkaguantenormbad input[type="checkbox"]:checked {
+    background: url('../assets/aguantenormcheck_black_checked.webp');
+	background-size:25px;
+	background-repeat: no-repeat;
+	filter: invert(25%) sepia(5%) saturate(68%) hue-rotate(22deg) brightness(104%) contrast(89%);
+}
+.checkaguantenormbad {
+	margin:0px;
+	align-items: start;
+	margin-top:7px;
+}
+.panelcoremal > :first-child{
+	display: grid;
+	grid-template-columns: 10% 12% 78%;
+	gap:0px;
+}
+.panelcoremal {
+	margin-left: -20px;
+    margin-top: 3px;
+}
+.coremalcheck {
+	margin-top: 4px;
+}
+.panelmal > :first-child{
+	display: grid;
+	grid-template-columns: 10% 12% 78%;
+	gap:0px;
+}
+.paneltitan2col > :first-child{
+	display: grid;
+    grid-template-columns: 60% 40%;
+    border-top: 2px solid;
+    padding-top: 10px;
+    margin-right: 20px;
+    padding-left: 20px;
+    gap: 0px;
+}
+.checkenergy1 input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    margin: 0px;
+    background: url(../assets/Energy1Check_Black.webp);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    flex: 0 0 40px;
+    width: 40px;
+    height: 110px;
+    cursor: pointer;
+    filter: var(--filter-color);
+}
+.checkenergy1 input[type="checkbox"]:checked {
+    background: url('../assets/Energy1Check_Black_Checked.webp');
+	filter: var(--filter-color);
+	background-size:40px;
+	background-repeat: no-repeat;
+}
+.checkenergy1 {
+	margin:0px;
+	align-items: start;
+	margin-top:7px;
+}
+.checkenergy2 input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+	margin:0px;
+    background: url('../assets/Energy2Check_Black.webp');
+	background-size: 40px;
+    background-repeat: no-repeat;
+    flex: 0 0 40px;
+    width: 40px;
+    height: 110px;
+    cursor: pointer;
+    filter: var(--filter-color);
+}
+.checkenergy2 input[type="checkbox"]:checked {
+    background: url('../assets/Energy2Check_Black_Checked.webp');
+	filter: var(--filter-color);
+	background-size:40px;
+	background-repeat: no-repeat;
+}
+.checkenergy2 {
+	margin:0px;
+	align-items: start;
+	margin-top:7px;
+}
+.checkenergy3 input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+	margin:0px;
+    background: url('../assets/Energy3Check_Black.webp');
+	background-size: 40px;
+    background-repeat: no-repeat;
+    flex: 0 0 40px;
+    width: 40px;
+    height: 110px;
+    cursor: pointer;
+    filter: var(--filter-color);
+}
+.checkenergy3 input[type="checkbox"]:checked {
+    background: url('../assets/Energy3Check_Black_Checked.webp');
+	filter: var(--filter-color);
+	background-size:40px;
+	background-repeat: no-repeat;
+}
+.checkenergy3 {
+	margin:0px;
+	align-items: start;
+	margin-top:7px;
+}
+.panelenergytitan {
+	gap:0px;
+	display: flex;
+    align-items: center;
+}
+.panelblindaje {
+	width:90%;
+	margin-left:10px;
+}
+.labeltitulotitan {
+	font-size:1.5em;
+	justify-content: left;
+	margin-top:10px;
+}
+.labeltituloright{
+	font-size:1.5em;
+	justify-content: right;
+	margin-top:10px;
+}
+.panelpartemega {
+	background-color:white;
+	border-radius:10px;
+}
+.megatitanpanel {
+	background-color:var(--theme-color);
+	padding:20px;
+	gap:20px;
+	border-radius: 10px 0px 10px 10px;
+}
+.imgmegatitan {
+    position: absolute;
+    background-image: url(../assets/Megatitan2.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    top: 0%;
+    opacity: 0.8;
+}
+.paneldibujomegatitan {
+	position:relative;
+}
+.paneldesctitan1  > :first-child{
+	display: grid;
+	grid-template-columns: 45px auto;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid var(--theme-color);
+}
+.paneldesctitan2  > :first-child{
+	display: grid;
+	grid-template-columns: 54px auto;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid var(--theme-color);
+}
+.paneldesctitan3  > :first-child{
+	display: grid;
+	grid-template-columns: 13% 87%;
+	gap:0px;
+	margin:0px 0px 2px 0px;
+	border-bottom:2px solid var(--theme-color);
+}
+.panelenergiamega {
+	background-color:white;
+	border-radius: 10px;
+	padding-right:10px;
+}
+.megatitanenergypanel {
+	background-color:var(--theme-color);
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+}
+
 
 
 :root {

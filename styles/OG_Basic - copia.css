@@ -1,0 +1,17 @@
+/* CSS para Outgunned básico
+https://codepen.io/sosuke/pen/Pjoqqp
+*/
+:root {
+	--theme-color:  #b3251b;
+	--director-color: #004f82;
+	--background-imagen: url('../assets/Fondo Outgunned.webp')center;
+	--filter-color: invert(15%) sepia(57%) saturate(4084%) hue-rotate(351deg) brightness(106%) contrast(91%);
+	--spotlight-icon: url('../assets/Spotlight_black.webp');
+	--adrenaline-text: '¡Adrenalina!';
+	--bullet-text: 'Bala';
+	--bullet-image: url('../assets/checkbala_black.webp');
+	--backup-text: 'Refuerzos';
+	--backup-image: url('../assets/checkrefuerzos_black.webp');
+	--bluff-text: 'Farol';
+	--bluff-image: url('../assets/checkfarol_black.webp');
+}
