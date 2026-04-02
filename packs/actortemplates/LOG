@@ -1,25 +1,25 @@
-2026/03/27-17:20:37.365 3ea0 Recovering log #984
-2026/03/27-17:20:37.371 3ea0 Delete type=0 #984
-2026/03/27-17:20:37.371 3ea0 Delete type=3 #982
-2026/03/27-17:22:50.288 57b8 Level-0 table #989: started
-2026/03/27-17:22:50.325 57b8 Level-0 table #989: 558616 bytes OK
-2026/03/27-17:22:50.330 57b8 Delete type=0 #987
-2026/03/27-17:23:21.373 57b8 Level-0 table #991: started
-2026/03/27-17:23:21.378 57b8 Level-0 table #991: 41784 bytes OK
-2026/03/27-17:23:21.381 57b8 Delete type=0 #988
-2026/03/27-17:23:21.385 57b8 Manual compaction at level-0 from '!actors!66I5KCdcWF0Eey1r' @ 72057594037927935 : 1 .. '!actors!vLLOqfo8QE6jJrim' @ 0 : 0; will stop at '!actors!Uj3px9rer8UksgZV' @ 292 : 1
-2026/03/27-17:23:21.386 57b8 Compacting 1@0 + 1@1 files
-2026/03/27-17:23:21.413 57b8 Generated table #992@0: 11 keys, 600263 bytes
-2026/03/27-17:23:21.413 57b8 Compacted 1@0 + 1@1 files => 600263 bytes
-2026/03/27-17:23:21.414 57b8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/27-17:23:21.415 57b8 Delete type=2 #989
-2026/03/27-17:23:21.415 57b8 Delete type=2 #991
-2026/03/27-17:23:21.415 57b8 Manual compaction at level-0 from '!actors!Uj3px9rer8UksgZV' @ 292 : 1 .. '!actors!vLLOqfo8QE6jJrim' @ 0 : 0; will stop at (end)
-2026/03/27-17:23:21.415 57b8 Manual compaction at level-1 from '!actors!66I5KCdcWF0Eey1r' @ 72057594037927935 : 1 .. '!actors!vLLOqfo8QE6jJrim' @ 0 : 0; will stop at '!actors!vLLOqfo8QE6jJrim' @ 288 : 1
-2026/03/27-17:23:21.415 57b8 Compacting 1@1 + 1@2 files
-2026/03/27-17:23:21.441 57b8 Generated table #993@1: 11 keys, 600263 bytes
-2026/03/27-17:23:21.441 57b8 Compacted 1@1 + 1@2 files => 600263 bytes
-2026/03/27-17:23:21.444 57b8 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/03/27-17:23:21.444 57b8 Delete type=2 #977
-2026/03/27-17:23:21.445 57b8 Delete type=2 #992
-2026/03/27-17:23:21.445 57b8 Manual compaction at level-1 from '!actors!vLLOqfo8QE6jJrim' @ 288 : 1 .. '!actors!vLLOqfo8QE6jJrim' @ 0 : 0; will stop at (end)
+2026/04/02-13:00:03.817366 7fe5befbf700 Recovering log #1028
+2026/04/02-13:00:03.823012 7fe5befbf700 Delete type=0 #1028
+2026/04/02-13:00:03.823038 7fe5befbf700 Delete type=3 #1026
+2026/04/02-13:40:45.224631 7fe09ffff700 Level-0 table #1033: started
+2026/04/02-13:40:45.244737 7fe09ffff700 Level-0 table #1033: 669073 bytes OK
+2026/04/02-13:40:45.246152 7fe09ffff700 Delete type=0 #1031
+2026/04/02-13:41:01.727122 7fe09ffff700 Level-0 table #1035: started
+2026/04/02-13:41:01.735973 7fe09ffff700 Level-0 table #1035: 230339 bytes OK
+2026/04/02-13:41:01.737421 7fe09ffff700 Delete type=0 #1032
+2026/04/02-13:41:01.748139 7fe09ffff700 Manual compaction at level-0 from '!actors!66I5KCdcWF0Eey1r' @ 72057594037927935 : 1 .. '!actors!vLLOqfo8QE6jJrim' @ 0 : 0; will stop at '!actors!vLLOqfo8QE6jJrim' @ 305 : 1
+2026/04/02-13:41:01.748148 7fe09ffff700 Compacting 1@0 + 1@1 files
+2026/04/02-13:41:01.769499 7fe09ffff700 Generated table #1036@0: 11 keys, 669088 bytes
+2026/04/02-13:41:01.769513 7fe09ffff700 Compacted 1@0 + 1@1 files => 669088 bytes
+2026/04/02-13:41:01.771347 7fe09ffff700 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/02-13:41:01.771439 7fe09ffff700 Delete type=2 #1033
+2026/04/02-13:41:01.771654 7fe09ffff700 Delete type=2 #1035
+2026/04/02-13:41:01.771887 7fe09ffff700 Manual compaction at level-0 from '!actors!vLLOqfo8QE6jJrim' @ 305 : 1 .. '!actors!vLLOqfo8QE6jJrim' @ 0 : 0; will stop at (end)
+2026/04/02-13:41:01.780093 7fe09ffff700 Manual compaction at level-1 from '!actors!66I5KCdcWF0Eey1r' @ 72057594037927935 : 1 .. '!actors!vLLOqfo8QE6jJrim' @ 0 : 0; will stop at '!actors!vLLOqfo8QE6jJrim' @ 305 : 1
+2026/04/02-13:41:01.780099 7fe09ffff700 Compacting 1@1 + 1@2 files
+2026/04/02-13:41:01.802399 7fe09ffff700 Generated table #1037@1: 11 keys, 669088 bytes
+2026/04/02-13:41:01.802413 7fe09ffff700 Compacted 1@1 + 1@2 files => 669088 bytes
+2026/04/02-13:41:01.804037 7fe09ffff700 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/04/02-13:41:01.804163 7fe09ffff700 Delete type=2 #1036
+2026/04/02-13:41:01.804419 7fe09ffff700 Delete type=2 #993
+2026/04/02-13:41:01.812411 7fe09ffff700 Manual compaction at level-1 from '!actors!vLLOqfo8QE6jJrim' @ 305 : 1 .. '!actors!vLLOqfo8QE6jJrim' @ 0 : 0; will stop at (end)

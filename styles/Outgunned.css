@@ -205,7 +205,7 @@
 }
 .checkboxpanel  > :first-child{
 	display: grid;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: auto auto auto auto auto;
 	gap:7px;
 	margin-top:0px;
 	margin-bottom:0px;
