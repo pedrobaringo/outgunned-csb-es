@@ -11,6 +11,18 @@
     src: url('../assets/OutgunnedDice-Regular.otf');
 }
 @font-face {
+    font-family: "OutgunnedDice-General";
+    src: url('../assets/OutgunnedDice-Regular.otf');
+}
+@font-face {
+    font-family: "OutgunnedDiceAdv-Regular";
+    src: url('../assets/OutgunnedAdventure_Regular.otf');
+}
+@font-face {
+    font-family: "OutgunnedDiceSup-Regular";
+    src: url('../assets/OutgunnedSuperheroes_Regular.otf');
+}
+@font-face {
     font-family: "SkullSymbol";
     src: url("../assets/Outgunnedsymbolfont-Regular.otf");
 }

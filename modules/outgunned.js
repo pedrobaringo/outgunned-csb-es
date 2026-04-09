@@ -20,11 +20,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'A',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedDice"
     });
-	dice3d.addSystem({id:"outgunnedWoKDice",name:"Outgunned WoK Dice"},"default");
+	dice3d.addSystem({id:"outgunnedWoKDice",name:"Outgunned WoK"},"default");
 	dice3d.addDicePreset({
       type:"d6",
       labels:[
@@ -45,11 +45,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'C',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedWoKDice"
     });
-	dice3d.addSystem({id:"outgunnedAdvDice",name:"Outgunned Adventure Dice"},"default");
+	dice3d.addSystem({id:"outgunnedAdvDice",name:"Outgunned Adventure"},"default");
 	dice3d.addDicePreset({
       type:"d6",
       labels:[
@@ -74,7 +74,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
 	  fontScale: 2.2,
       system: "outgunnedAdvDice"
     });
-	dice3d.addSystem({id:"outgunnedSuperDice",name:"Outgunned Superheroes Dice"},"default");
+	dice3d.addSystem({id:"outgunnedSuperDice",name:"Outgunned Superheroes"},"default");
 	dice3d.addDicePreset({
       type:"d6",
       labels:[
@@ -95,11 +95,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'P',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDiceSup-Regular",
 	  fontScale: 2.2,
       system: "outgunnedSuperDice"
     });
-	dice3d.addSystem({id:"outgunnedStarDice",name:"Outgunned Star Raiders Dice"},"default");
+	dice3d.addSystem({id:"outgunnedStarDice",name:"Outgunned Star Raiders"},"default");
 	dice3d.addDicePreset({
       type:"d6",
       labels:[
@@ -120,11 +120,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'N',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedStarDice"
     });
-	dice3d.addSystem({id:"outgunnedRisDraDice",name:"Outgunned Rising Dragon Dice"},"default");
+	dice3d.addSystem({id:"outgunnedRisDraDice",name:"Outgunned Rising Dragon"},"default");
 	dice3d.addDicePreset({
       type:"d6",
       labels:[
@@ -145,11 +145,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'M',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedRisDraDice"
     });
-	dice3d.addSystem({id:"outgunnedCloDagDice",name:"Outgunned Cloak and Dagger Dice"},"default");
+	dice3d.addSystem({id:"outgunnedCloDagDice",name:"Outgunned Cloak and Dagger"},"default");
 	dice3d.addDicePreset({
       type:"d6",
       labels:[
@@ -170,11 +170,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'F',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedCloDagDice"
     });
-	dice3d.addSystem({id:"outgunnedPowDice",name:"Outgunned Great Powers Dice"},"default");
+	dice3d.addSystem({id:"outgunnedPowDice",name:"Outgunned Great Powers"},"default");
 	dice3d.addDicePreset({
       type:"d6",
       labels:[
@@ -195,11 +195,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'I',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedPowDice"
     });
-	dice3d.addSystem({id:"outgunnedWeirDice",name:"Outgunned Weirder Things Dice"},"default");
+	dice3d.addSystem({id:"outgunnedWeirDice",name:"Outgunned Weirder Things"},"default");
 	dice3d.addDicePreset({
       type:"d6",
       labels:[
@@ -220,11 +220,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'O',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedWeirDice"
     });
-	dice3d.addSystem({id:"outgunnedMagDice",name:"Outgunned A Kind of Magic Dice"},"default");
+	dice3d.addSystem({id:"outgunnedMagDice",name:"Outgunned A Kind of Magic"},"default");
 	dice3d.addDicePreset({
       type:"d6",
       labels:[
@@ -245,11 +245,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'E',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedMagDice"
     });
-	dice3d.addSystem({id:"outgunnedAlienDice",name:"Outgunned Killing Aliens Dice"},"default");
+	dice3d.addSystem({id:"outgunnedAlienDice",name:"Outgunned Killing Aliens"},"default");
 	dice3d.addDicePreset({
       type:"d6",
       labels:[
@@ -270,11 +270,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'J',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedAlienDice"
     });
-	dice3d.addSystem({id:"outgunnedGhostDice",name:"Outgunned Ghost Hunters Dice"},"default");
+	dice3d.addSystem({id:"outgunnedGhostDice",name:"Outgunned Ghost Hunters"},"default");
 	dice3d.addDicePreset({
       type:"d6",
       labels:[
@@ -295,11 +295,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'H',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedGhostDice"
     });
-	dice3d.addSystem({id:"outgunnedMidnDice",name:"Outgunned Midnight Wars Dice"},"default");
+	dice3d.addSystem({id:"outgunnedMidnDice",name:"Outgunned Midnight Wars"},"default");
 	dice3d.addDicePreset({
       type:"d6",
       labels:[
@@ -320,11 +320,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'K',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedMidnDice"
     });
-	dice3d.addSystem({id:"outgunnedNeonDice",name:"Outgunned Neon Noire Dice"},"default");
+	dice3d.addSystem({id:"outgunnedNeonDice",name:"Outgunned Neon Noire"},"default");
 	dice3d.addDicePreset({
       type:"d6",
       labels:[
@@ -345,11 +345,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'L',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedNeonDice"
     });
-	dice3d.addSystem({id:"outgunnedEveryDice",name:"Outgunned Everything at Once Dice"},"default");
+	dice3d.addSystem({id:"outgunnedEveryDice",name:"Outgunned Everything at Once"},"default");
 	dice3d.addDicePreset({
       type:"d6",
       labels:[
@@ -370,7 +370,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'G',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedEveryDice"
     });
@@ -395,7 +395,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'P',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedstarknights"
     });
@@ -420,7 +420,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'Q',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedoldones"
     });
@@ -445,7 +445,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'R',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedwildwest"
     });
@@ -470,7 +470,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'S',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunneddarklight"
     });
@@ -495,7 +495,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'T',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedmightyswords"
     });
@@ -520,7 +520,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'U',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunneddistrict77"
     });
@@ -545,7 +545,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'V',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunneddinostorm"
     });
@@ -570,7 +570,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'W',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedfuriouswasteland"
     });
@@ -595,7 +595,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'X',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedarmyofevil"
     });
@@ -620,7 +620,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'Y',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedquacktales"
     });
@@ -645,9 +645,284 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'Z',  
         'B'
       ],
-	  font:"OutgunnedDice-Regular",
+	  font:"OutgunnedDice-General",
 	  fontScale: 2.2,
       system: "outgunnedinsertcoin"
+    });
+	dice3d.addSystem({id:"outgunnedgoodboys",name:"Outgunned Good Boys"},"default");
+	dice3d.addDicePreset({
+      type:"d6",
+      labels:[
+        '1', 
+        '2', 
+        '3', 
+        '4',
+        '5', 
+        '6'
+      ],
+	  font:"OutgunnedDice-Regular",
+	  fontScale: 2.2,
+      system: "outgunnedgoodboys"
+    });
+	dice3d.addDicePreset({
+      type:"dc",
+      labels:[
+        'i',  
+        'B'
+      ],
+	  font:"OutgunnedDice-General",
+	  fontScale: 2.2,
+      system: "outgunnedgoodboys"
+    });
+  dice3d.addSystem({id:"outgunnedvforvillain",name:"Outgunned V for Villain"},"default");
+	dice3d.addDicePreset({
+      type:"d6",
+      labels:[
+        '1', 
+        '2', 
+        '3', 
+        '4',
+        '5', 
+        '6'
+      ],
+	  font:"OutgunnedDice-Regular",
+	  fontScale: 2.2,
+      system: "outgunnedvforvillain"
+    });
+	dice3d.addDicePreset({
+      type:"dc",
+      labels:[
+        'q',  
+        'B'
+      ],
+	  font:"OutgunnedDice-General",
+	  fontScale: 2.2,
+      system: "outgunnedvforvillain"
+    });
+  dice3d.addSystem({id:"outgunnedgodsandmen",name:"Outgunned Gods and Men"},"default");
+	dice3d.addDicePreset({
+      type:"d6",
+      labels:[
+        '1', 
+        '2', 
+        '3', 
+        '4',
+        '5', 
+        '6'
+      ],
+	  font:"OutgunnedDice-Regular",
+	  fontScale: 2.2,
+      system: "outgunnedgodsandmen"
+    });
+	dice3d.addDicePreset({
+      type:"dc",
+      labels:[
+        'h',  
+        'B'
+      ],
+	  font:"OutgunnedDice-General",
+	  fontScale: 2.2,
+      system: "outgunnedgodsandmen"
+    });
+  dice3d.addSystem({id:"outgunnedbeastunleashed",name:"Outgunned Beast Unleashed"},"default");
+	dice3d.addDicePreset({
+      type:"d6",
+      labels:[
+        '1', 
+        '2', 
+        '3', 
+        '4',
+        '5', 
+        '6'
+      ],
+	  font:"OutgunnedDice-Regular",
+	  fontScale: 2.2,
+      system: "outgunnedbeastunleashed"
+    });
+	dice3d.addDicePreset({
+      type:"dc",
+      labels:[
+        'g',  
+        'B'
+      ],
+	  font:"OutgunnedDice-General",
+	  fontScale: 2.2,
+      system: "outgunnedbeastunleashed"
+    });
+  dice3d.addSystem({id:"outgunnedkillingmachines",name:"Outgunned Killing Machines"},"default");
+	dice3d.addDicePreset({
+      type:"d6",
+      labels:[
+        '1', 
+        '2', 
+        '3', 
+        '4',
+        '5', 
+        '6'
+      ],
+	  font:"OutgunnedDice-Regular",
+	  fontScale: 2.2,
+      system: "outgunnedkillingmachines"
+    });
+	dice3d.addDicePreset({
+      type:"dc",
+      labels:[
+        'k',  
+        'B'
+      ],
+	  font:"OutgunnedDice-General",
+	  fontScale: 2.2,
+      system: "outgunnedkillingmachines"
+    });
+  dice3d.addSystem({id:"outgunnedsteeltitans",name:"Outgunned Steel Titans"},"default");
+	dice3d.addDicePreset({
+      type:"d6",
+      labels:[
+        '1', 
+        '2', 
+        '3', 
+        '4',
+        '5', 
+        '6'
+      ],
+	  font:"OutgunnedDice-Regular",
+	  fontScale: 2.2,
+      system: "outgunnedsteeltitans"
+    });
+	dice3d.addDicePreset({
+      type:"dc",
+      labels:[
+        'n',  
+        'B'
+      ],
+	  font:"OutgunnedDice-General",
+	  fontScale: 2.2,
+      system: "outgunnedsteeltitans"
+    });
+  dice3d.addSystem({id:"outgunnedonlyhumans",name:"Outgunned Only Humans"},"default");
+	dice3d.addDicePreset({
+      type:"d6",
+      labels:[
+        '1', 
+        '2', 
+        '3', 
+        '4',
+        '5', 
+        '6'
+      ],
+	  font:"OutgunnedDice-Regular",
+	  fontScale: 2.2,
+      system: "outgunnedonlyhumans"
+    });
+	dice3d.addDicePreset({
+      type:"dc",
+      labels:[
+        'l',  
+        'B'
+      ],
+	  font:"OutgunnedDice-General",
+	  fontScale: 2.2,
+      system: "outgunnedonlyhumans"
+    });
+  dice3d.addSystem({id:"outgunnedtimetravel",name:"Outgunned Time Travel"},"default");
+	dice3d.addDicePreset({
+      type:"d6",
+      labels:[
+        '1', 
+        '2', 
+        '3', 
+        '4',
+        '5', 
+        '6'
+      ],
+	  font:"OutgunnedDice-Regular",
+	  fontScale: 2.2,
+      system: "outgunnedtimetravel"
+    });
+	dice3d.addDicePreset({
+      type:"dc",
+      labels:[
+        'o',  
+        'B'
+      ],
+	  font:"OutgunnedDice-General",
+	  fontScale: 2.2,
+      system: "outgunnedtimetravel"
+    });
+  dice3d.addSystem({id:"outgunnedhighoctane",name:"Outgunned High Octane"},"default");
+	dice3d.addDicePreset({
+      type:"d6",
+      labels:[
+        '1', 
+        '2', 
+        '3', 
+        '4',
+        '5', 
+        '6'
+      ],
+	  font:"OutgunnedDice-Regular",
+	  fontScale: 2.2,
+      system: "outgunnedhighoctane"
+    });
+	dice3d.addDicePreset({
+      type:"dc",
+      labels:[
+        'j',  
+        'B'
+      ],
+	  font:"OutgunnedDice-General",
+	  fontScale: 2.2,
+      system: "outgunnedhighoctane"
+    });
+  dice3d.addSystem({id:"outgunnedpowerguardians",name:"Outgunned Power Guardians"},"default");
+	dice3d.addDicePreset({
+      type:"d6",
+      labels:[
+        '1', 
+        '2', 
+        '3', 
+        '4',
+        '5', 
+        '6'
+      ],
+	  font:"OutgunnedDice-Regular",
+	  fontScale: 2.2,
+      system: "outgunnedpowerguardians"
+    });
+	dice3d.addDicePreset({
+      type:"dc",
+      labels:[
+        'm',  
+        'B'
+      ],
+	  font:"OutgunnedDice-General",
+	  fontScale: 2.2,
+      system: "outgunnedpowerguardians"
+    });
+  dice3d.addSystem({id:"outgunnedvariantverse",name:"Outgunned Variantverse"},"default");
+	dice3d.addDicePreset({
+      type:"d6",
+      labels:[
+        '1', 
+        '2', 
+        '3', 
+        '4',
+        '5', 
+        '6'
+      ],
+	  font:"OutgunnedDice-Regular",
+	  fontScale: 2.2,
+      system: "outgunnedvariantverse"
+    });
+	dice3d.addDicePreset({
+      type:"dc",
+      labels:[
+        'p',  
+        'B'
+      ],
+	  font:"OutgunnedDice-General",
+	  fontScale: 2.2,
+      system: "outgunnedvariantverse"
     });
 });						  
 
